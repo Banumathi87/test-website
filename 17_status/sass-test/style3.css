@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  color: #777;
+}
+.body1 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  overflow: hidden;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.header {
+  width: 90%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  background-color: white;
+  border-right: 0.1px solid rgb(248, 244, 244);
+  box-shadow: 0px 2.5px 0px rgba(134, 133, 133, 0.4);
+}
+img {
+  float: left;
+  height: 50px;
+}
+nav li {
+  display: block;
+  margin: 10px 20px;
+  font-weight: 500;
+  font-size: x-small;
+  display: inline;
+  float: left;
+}
+.main {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+.image-container {
+  width: 40%;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  float: left;
+}
+.image-container img {
+  width: 98%;
+  height: 98%;
+}
+.content {
+  width: 40%;
+  margin-right: 50px;
+  color: rgb(117, 105, 105);
+  background-color: white;
+  font-weight: normal;
+  text-align: justify;
+  font-size: medium;
+  padding-left: 20px;
+  float: right;
+}
+.row1 ul {
+  background-color: rgb(247, 245, 245);
+  width: 90%;
+  height: 40px;
+  display: flex;
+  margin: 50px 100px;
+  padding: 4% 4%;
+  align-items: center;
+}
+.row1 li {
+  display: inline;
+  margin: 0 40px;
+  align-items: center;
+}
+.row2 {
+  width: 85%;
+  padding: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  float: right;
+}
+.card {
+  background: white;
+}
+.card-content {
+  margin-top: 5px 7px;
+  padding: 20px 10px;
+  padding-right: 5px;
+  text-align: center;
+  float: left;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+}
+.card-content h2 {
+  padding: 0 10px;
+}
+.card-content p {
+  margin-top: 5px;
+  padding: 0 20px;
+}
+.card img {
+  background-size: cover;
+  background-position: center;
+  margin-top: 5%;
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}

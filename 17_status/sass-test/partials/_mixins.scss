@@ -1,0 +1,19 @@
+@mixin align_padding($unit1, $unit2) {
+  padding: $unit1 $unit2;
+}
+@mixin alignment {
+  align-items: center;
+  display: flex;
+}
+@mixin top($unit) {
+  margin-top: $unit;
+}
+@include float($value) {
+  float: $value;
+}
+@mixin margin($val1, $val2) {
+  margin: $val1, $val2;
+}
+%grid {
+  display: grid;
+}
